@@ -19,29 +19,22 @@ public class Calculator{
             int n = sc.nextInt();
             int sum=a+b;
             for(int i =0;i<=n;i++){
-                
-              
                 sum=a+b;
                 a=sum;
                 b=sc.nextInt();
-                
-
             }
-              System.out.println(sum);
+            System.out.println(sum);
             break;
             //for multiply
             case 2:
-             System.out.println(a*b);
+            System.out.println(a*b);
             System.out.println("input total no. you want to multiply");
             int h = sc.nextInt();
             int multi=a*b;
             for(int i =0;i<=h;i++){
                 multi=a*b;
-                
                 a=multi;
                 b=sc.nextInt();
-                
-
             }
             System.out.println(multi);
             break;
@@ -52,13 +45,9 @@ public class Calculator{
             int g = sc.nextInt();
             int sub=a-b;
             for(int i =0;i<=g;i++){
-                sub=a-b;
-               
-                
+                sub=a-b;   
                 a=sub;
                 b=sc.nextInt();
-                
-
             }
             System.out.println(sub);
             break;
@@ -69,13 +58,9 @@ public class Calculator{
             int f = sc.nextInt();
             int div=a/b;
             for(int i =0;i<=f;i++){
-                div=a/b;
-               
-                
+                div=a/b;    
                 a=div;
-                b=sc.nextInt();
-                
-
+                b=sc.nextInt(); 
             }
             System.out.println(div);
             break;
