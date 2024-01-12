@@ -91,9 +91,9 @@ public boolean isSafe(char[][] board, int row, int col, int number) {
 }
 
 
-    private static void printSudoku(int[][] board) {
-        for (int row = 0; row < 9; row++) {
-            for (int col = 0; col < 9; col++) {
+    private static void printSudoku(char[][] board) {
+        for (int row = 1; row <= 9; row++) {
+            for (int col = 1; col <= 9; col++) {
                 System.out.print(board[row][col] + " ");
             }
             System.out.println();
